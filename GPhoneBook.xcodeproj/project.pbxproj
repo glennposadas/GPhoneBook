@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219F12421CB35763006781B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F12411CB35763006781B8 /* main.m */; };
+		219F12451CB35763006781B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F12441CB35763006781B8 /* AppDelegate.m */; };
+		219F124B1CB35763006781B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F12491CB35763006781B8 /* Main.storyboard */; };
+		219F124E1CB35763006781B8 /* GPhoneBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219F124C1CB35763006781B8 /* GPhoneBook.xcdatamodeld */; };
+		219F12501CB35764006781B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219F124F1CB35764006781B8 /* Assets.xcassets */; };
+		219F12531CB35764006781B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F12511CB35764006781B8 /* LaunchScreen.storyboard */; };
+		219F125E1CB35764006781B8 /* GPhoneBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F125D1CB35764006781B8 /* GPhoneBookTests.m */; };
+		219F12691CB35764006781B8 /* GPhoneBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F12681CB35764006781B8 /* GPhoneBookUITests.m */; };
+		219F12781CB35AAE006781B8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F12771CB35AAE006781B8 /* MainViewController.m */; };
+		219F127A1CB36ED8006781B8 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 219F12791CB36ED8006781B8 /* blue.png */; };
+		219F127D1CB386D3006781B8 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F127C1CB386D3006781B8 /* AddContactViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219F125A1CB35764006781B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219F12351CB35761006781B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F123C1CB35761006781B8;
+			remoteInfo = GPhoneBook;
+		};
+		219F12651CB35764006781B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219F12351CB35761006781B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F123C1CB35761006781B8;
+			remoteInfo = GPhoneBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219F123D1CB35761006781B8 /* GPhoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPhoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F12411CB35763006781B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219F12431CB35763006781B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		219F12441CB35763006781B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		219F124A1CB35763006781B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219F124D1CB35763006781B8 /* GPhoneBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPhoneBook.xcdatamodel; sourceTree = "<group>"; };
+		219F124F1CB35764006781B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219F12521CB35764006781B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219F12541CB35764006781B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F12591CB35764006781B8 /* GPhoneBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPhoneBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F125D1CB35764006781B8 /* GPhoneBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPhoneBookTests.m; sourceTree = "<group>"; };
+		219F125F1CB35764006781B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F12641CB35764006781B8 /* GPhoneBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPhoneBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F12681CB35764006781B8 /* GPhoneBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPhoneBookUITests.m; sourceTree = "<group>"; };
+		219F126A1CB35764006781B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F12761CB35AAE006781B8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		219F12771CB35AAE006781B8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		219F12791CB36ED8006781B8 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		219F127B1CB386D3006781B8 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		219F127C1CB386D3006781B8 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219F123A1CB35761006781B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F12561CB35764006781B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F12611CB35764006781B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219F12341CB35761006781B8 = {
+			isa = PBXGroup;
+			children = (
+				219F123F1CB35763006781B8 /* GPhoneBook */,
+				219F125C1CB35764006781B8 /* GPhoneBookTests */,
+				219F12671CB35764006781B8 /* GPhoneBookUITests */,
+				219F123E1CB35761006781B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219F123E1CB35761006781B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219F123D1CB35761006781B8 /* GPhoneBook.app */,
+				219F12591CB35764006781B8 /* GPhoneBookTests.xctest */,
+				219F12641CB35764006781B8 /* GPhoneBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219F123F1CB35763006781B8 /* GPhoneBook */ = {
+			isa = PBXGroup;
+			children = (
+				219F12431CB35763006781B8 /* AppDelegate.h */,
+				219F12441CB35763006781B8 /* AppDelegate.m */,
+				219F12761CB35AAE006781B8 /* MainViewController.h */,
+				219F12771CB35AAE006781B8 /* MainViewController.m */,
+				219F12491CB35763006781B8 /* Main.storyboard */,
+				219F124F1CB35764006781B8 /* Assets.xcassets */,
+				219F12791CB36ED8006781B8 /* blue.png */,
+				219F12511CB35764006781B8 /* LaunchScreen.storyboard */,
+				219F12541CB35764006781B8 /* Info.plist */,
+				219F124C1CB35763006781B8 /* GPhoneBook.xcdatamodeld */,
+				219F12401CB35763006781B8 /* Supporting Files */,
+				219F127B1CB386D3006781B8 /* AddContactViewController.h */,
+				219F127C1CB386D3006781B8 /* AddContactViewController.m */,
+			);
+			path = GPhoneBook;
+			sourceTree = "<group>";
+		};
+		219F12401CB35763006781B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219F12411CB35763006781B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		219F125C1CB35764006781B8 /* GPhoneBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				219F125D1CB35764006781B8 /* GPhoneBookTests.m */,
+				219F125F1CB35764006781B8 /* Info.plist */,
+			);
+			path = GPhoneBookTests;
+			sourceTree = "<group>";
+		};
+		219F12671CB35764006781B8 /* GPhoneBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				219F12681CB35764006781B8 /* GPhoneBookUITests.m */,
+				219F126A1CB35764006781B8 /* Info.plist */,
+			);
+			path = GPhoneBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219F123C1CB35761006781B8 /* GPhoneBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F126D1CB35764006781B8 /* Build configuration list for PBXNativeTarget "GPhoneBook" */;
+			buildPhases = (
+				219F12391CB35761006781B8 /* Sources */,
+				219F123A1CB35761006781B8 /* Frameworks */,
+				219F123B1CB35761006781B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPhoneBook;
+			productName = GPhoneBook;
+			productReference = 219F123D1CB35761006781B8 /* GPhoneBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219F12581CB35764006781B8 /* GPhoneBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F12701CB35764006781B8 /* Build configuration list for PBXNativeTarget "GPhoneBookTests" */;
+			buildPhases = (
+				219F12551CB35764006781B8 /* Sources */,
+				219F12561CB35764006781B8 /* Frameworks */,
+				219F12571CB35764006781B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F125B1CB35764006781B8 /* PBXTargetDependency */,
+			);
+			name = GPhoneBookTests;
+			productName = GPhoneBookTests;
+			productReference = 219F12591CB35764006781B8 /* GPhoneBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219F12631CB35764006781B8 /* GPhoneBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F12731CB35764006781B8 /* Build configuration list for PBXNativeTarget "GPhoneBookUITests" */;
+			buildPhases = (
+				219F12601CB35764006781B8 /* Sources */,
+				219F12611CB35764006781B8 /* Frameworks */,
+				219F12621CB35764006781B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F12661CB35764006781B8 /* PBXTargetDependency */,
+			);
+			name = GPhoneBookUITests;
+			productName = GPhoneBookUITests;
+			productReference = 219F12641CB35764006781B8 /* GPhoneBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219F12351CB35761006781B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GlennPosadas;
+				TargetAttributes = {
+					219F123C1CB35761006781B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					219F12581CB35764006781B8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 219F123C1CB35761006781B8;
+					};
+					219F12631CB35764006781B8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 219F123C1CB35761006781B8;
+					};
+				};
+			};
+			buildConfigurationList = 219F12381CB35761006781B8 /* Build configuration list for PBXProject "GPhoneBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219F12341CB35761006781B8;
+			productRefGroup = 219F123E1CB35761006781B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219F123C1CB35761006781B8 /* GPhoneBook */,
+				219F12581CB35764006781B8 /* GPhoneBookTests */,
+				219F12631CB35764006781B8 /* GPhoneBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219F123B1CB35761006781B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F12531CB35764006781B8 /* LaunchScreen.storyboard in Resources */,
+				219F12501CB35764006781B8 /* Assets.xcassets in Resources */,
+				219F127A1CB36ED8006781B8 /* blue.png in Resources */,
+				219F124B1CB35763006781B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F12571CB35764006781B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F12621CB35764006781B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219F12391CB35761006781B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F12781CB35AAE006781B8 /* MainViewController.m in Sources */,
+				219F12451CB35763006781B8 /* AppDelegate.m in Sources */,
+				219F12421CB35763006781B8 /* main.m in Sources */,
+				219F127D1CB386D3006781B8 /* AddContactViewController.m in Sources */,
+				219F124E1CB35763006781B8 /* GPhoneBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F12551CB35764006781B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F125E1CB35764006781B8 /* GPhoneBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F12601CB35764006781B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F12691CB35764006781B8 /* GPhoneBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219F125B1CB35764006781B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219F123C1CB35761006781B8 /* GPhoneBook */;
+			targetProxy = 219F125A1CB35764006781B8 /* PBXContainerItemProxy */;
+		};
+		219F12661CB35764006781B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219F123C1CB35761006781B8 /* GPhoneBook */;
+			targetProxy = 219F12651CB35764006781B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219F12491CB35763006781B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219F124A1CB35763006781B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219F12511CB35764006781B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219F12521CB35764006781B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219F126B1CB35764006781B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		219F126C1CB35764006781B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219F126E1CB35764006781B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPhoneBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennvon.GPhoneBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		219F126F1CB35764006781B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPhoneBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennvon.GPhoneBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		219F12711CB35764006781B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPhoneBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennvon.GPhoneBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPhoneBook.app/GPhoneBook";
+			};
+			name = Debug;
+		};
+		219F12721CB35764006781B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPhoneBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennvon.GPhoneBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPhoneBook.app/GPhoneBook";
+			};
+			name = Release;
+		};
+		219F12741CB35764006781B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPhoneBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennvon.GPhoneBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPhoneBook;
+			};
+			name = Debug;
+		};
+		219F12751CB35764006781B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPhoneBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennvon.GPhoneBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPhoneBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219F12381CB35761006781B8 /* Build configuration list for PBXProject "GPhoneBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F126B1CB35764006781B8 /* Debug */,
+				219F126C1CB35764006781B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219F126D1CB35764006781B8 /* Build configuration list for PBXNativeTarget "GPhoneBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F126E1CB35764006781B8 /* Debug */,
+				219F126F1CB35764006781B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219F12701CB35764006781B8 /* Build configuration list for PBXNativeTarget "GPhoneBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F12711CB35764006781B8 /* Debug */,
+				219F12721CB35764006781B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219F12731CB35764006781B8 /* Build configuration list for PBXNativeTarget "GPhoneBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F12741CB35764006781B8 /* Debug */,
+				219F12751CB35764006781B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		219F124C1CB35763006781B8 /* GPhoneBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				219F124D1CB35763006781B8 /* GPhoneBook.xcdatamodel */,
+			);
+			currentVersion = 219F124D1CB35763006781B8 /* GPhoneBook.xcdatamodel */;
+			path = GPhoneBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 219F12351CB35761006781B8 /* Project object */;
+}
