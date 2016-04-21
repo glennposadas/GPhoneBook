@@ -11,6 +11,8 @@
 @interface MainViewController : UIViewController
 - (IBAction)editBtnAction:(id)sender;
 - (IBAction)searchBtnAction:(id)sender;
-@property (strong, nonatomic) IBOutlet UITableView *talbleView;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (strong, nonatomic) MainViewController *mainVC;
 
 @end
